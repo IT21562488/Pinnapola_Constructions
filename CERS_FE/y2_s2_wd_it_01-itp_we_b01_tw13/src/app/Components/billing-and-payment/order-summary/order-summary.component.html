@@ -1,0 +1,99 @@
+<!-- <form action=""> -->
+    <form [formGroup] = "InsertTrnascationInvoice">
+
+        <!-- ------------Product Details Section----------->
+<div class="description">
+    <div class="Header">
+       <h2 class="IName" >Mixer-MX60</h2>
+
+       <!-- <mat-label>productName</mat-label>
+       <mat-form-field style="margin-left: 66px;" appearance="outline">
+           <input formControlName="productName" matInput type="text" > 
+       </mat-form-field><br>    -->
+
+       <p class="Iprice">LKR 5,000 Per Day</p>
+    </div>
+     <div>
+        <img src="'../../../assets//mix.jpg">
+    </div>
+ 
+    <div class="itemDetail">
+        
+            <div class="itemDetail">
+            <mat-label>Quantity</mat-label>
+            <mat-form-field style="margin-left: 66px;" appearance="outline">
+                <input formControlName="qty" matInput type="text" > 
+            </mat-form-field><br>   
+
+            <mat-label> From Date</mat-label>
+            <mat-form-field appearance="outline" style="margin-left: 53px;">
+            <input formControlName="FromDate" matInput type="text"  (change)="calculateDuration()"> 
+            </mat-form-field><br>
+           
+            <mat-label>To Date</mat-label>
+            <mat-form-field appearance="outline" style="margin-left: 73px;">
+                <input formControlName="Enddate" matInput type="text" (change)="calculateDuration()"> 
+            </mat-form-field><br>
+             
+            <mat-label>Security Deposit</mat-label>
+            <mat-form-field appearance="outline" style="margin-left: 12px;">
+                <input formControlName="Securedeposit" matInput type="text" > 
+            </mat-form-field>
+        </div>
+    </div>
+</div> 
+
+<!-- ------------Payment Method Section----------->
+<div class="card-section">
+    <h2 style="margin-left: 25px;padding-top: 10px;">Payment Method</h2>
+    <div >
+        <mat-radio-group aria-label="Select Payment Method" formControlName="transcationMethod"  >
+          <mat-radio-button  value="Credit Card">Credit card</mat-radio-button>
+          <mat-radio-button value="Debit Card">Debit Card</mat-radio-button>
+          <mat-radio-button value="Bank Transfer">Bank Transfer</mat-radio-button>
+        </mat-radio-group>
+      </div> 
+</div>
+
+<!-- ------------Payment Summary Section----------->
+<div class="Paysummary">
+    <h1 style="padding-left: 170px;padding-top: 10px;font-weight: 500;">Order Summary</h1>
+    <div class="itemDetail">
+        <mat-label>Price Per Day</mat-label>
+        <mat-form-field style="margin-left: 33px;" appearance="outline">
+            <input formControlName="perdayCost" matInput type="text"> 
+        </mat-form-field><br>   
+
+        <mat-label>Duration</mat-label>
+        <mat-form-field appearance="outline" style="margin-left: 68px;">
+        <input formControlName="Duration" matInput type="text"> 
+        </mat-form-field><br>
+       
+        <mat-label>Rental cost</mat-label>
+        <mat-form-field appearance="outline" style="margin-left: 48px;">
+            <input formControlName="Rentalcost" matInput type="text" (change)="calculateTotalAmount()" > 
+        </mat-form-field><br>
+         
+        <mat-label>Security Deposit</mat-label>
+        <mat-form-field appearance="outline" style="margin-left: 12px;margin-bottom: 10px;">
+            <input formControlName="Securedeposit" matInput type="text" (change)="calculateTotalAmount()"> 
+        </mat-form-field>
+
+    </div>
+    <hr>
+    <mat-label style="margin-left: 90px;font-size: 18px;font-weight: 500;">Total Amount</mat-label>
+        <mat-form-field appearance="outline" style="margin-left: 23px;">
+            <input formControlName="Totalamount" matInput type="text"> 
+        </mat-form-field>
+    
+        <div style="display: block; margin-bottom: 30px;">
+            <button mat-raised-button style="background-color: #F8C806;"  (click)="inserttest()"  routerLink="AddNewCard"    >Place Order</button>
+          </div>
+          <!-- routerLink="AddNewCard" -->
+          <div style="display: block;">
+            <button mat-raised-button style="background-color: #000000; color: aliceblue;margin-bottom: 30px;">Cancel</button>
+          </div>
+
+</div>
+
+</form>

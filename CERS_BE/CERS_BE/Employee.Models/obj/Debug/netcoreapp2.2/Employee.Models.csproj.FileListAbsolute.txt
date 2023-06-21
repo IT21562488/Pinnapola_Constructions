@@ -1,0 +1,27 @@
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.deps.json
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.deps.json
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.pdb
+C:\CERS_BE\CERS_BE\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.deps.json
+C:\CERS_BE\CERS_BE\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.dll
+C:\CERS_BE\CERS_BE\Employee.Models\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csprojAssemblyReference.cache
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.csproj.CoreCompileInputs.cache
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfoInputs.cache
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.AssemblyInfo.cs
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.dll
+C:\CERS_BE\CERS_BE\Employee.Models\obj\Debug\netcoreapp2.2\Employee.Models.pdb

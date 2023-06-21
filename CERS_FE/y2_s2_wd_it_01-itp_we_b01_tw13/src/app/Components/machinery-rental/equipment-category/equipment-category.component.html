@@ -1,0 +1,24 @@
+
+<div class="banner">
+    <div class="banner-image">
+        <div class="banner-text">
+          <h1 class="banner-text-main">MACHINERY EQUIPMENT FOR RENT</h1>
+          <p>FIND THE BEST EQUIPMENT</p>
+      </div>
+    </div>   
+</div>
+
+<div class="cat-topic">
+    <h1>FEATURED CATEGORIES</h1>
+</div>
+
+<div class="content" role="main">
+<div class="row">
+    <div class="col-lg-3" *ngFor="let item of CategoryList">
+        <img class="img-responsive img-thumbnail imgclass" src={{item.imagePath}}>
+        <h2>{{item.description}}</h2>
+        <button class="cat_btn" routerLink="machinerylist">View More</button>
+    </div>
+</div>
+
+</div>

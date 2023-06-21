@@ -1,0 +1,91 @@
+
+  <div class="main-part" >
+      <h1 style="text-align: left;margin-top: 15px;font-size: 24px;font-weight: 500;">Add New Card</h1>
+      <h2 style="text-align: left;color: #686363;font-size: 14px;margin-top: -20px;">Visa / Master / Amex</h2>
+ <form [formGroup] = "form">
+<mat-card >
+    <div style="display: block;">
+      <mat-form-field >
+        <mat-label>Cardholder Name</mat-label>
+        <input matInput placeholder="Enter cardholder name" formControlName = "cardholderName" >
+        <mat-error *ngIf="form.controls['cardholderName'].invalid">
+          Please enter a valid cardholder name (minimum 3 characters).
+        </mat-error>
+        
+      </mat-form-field>
+    </div>
+  
+    <div style="display: block;">
+      <mat-form-field>
+        <mat-label>Credit Card Number</mat-label>
+        <input matInput placeholder="Enter credit card number" formControlName = "creditCardNumber" >
+        <mat-error *ngIf="form.controls['creditCardNumber'].invalid">
+          Please enter a valid credit card number (12 digits).
+        </mat-error>
+      </mat-form-field>
+    </div>
+  
+    <div style="display: block;">
+      <mat-form-field>
+        <mat-label>Expiration Date</mat-label>
+        <input matInput placeholder="MM/YY" formControlName = "expirationDate">
+        <mat-error *ngIf="form.controls['expirationDate'].invalid">
+          Please enter a valid expiration date (format: MM/YY).
+        </mat-error>
+      </mat-form-field>
+    </div>
+  
+    <div style="display: block;">
+      <mat-form-field style="margin-bottom: 15px;">
+        <mat-label>CVV</mat-label>
+        <input matInput placeholder="Enter CVV" formControlName = "cvv">
+        <mat-error *ngIf="form.controls['cvv'].invalid">
+          Please enter a valid CVV (3 digits).
+        </mat-error>  
+      </mat-form-field>
+    </div>
+  
+    <div style="display: block; margin-bottom: 30px;">
+        <button mat-raised-button style="background-color: #F8C806;" routerLink="payAuthentication" >Save</button>
+      </div>
+  
+      <div style="display: block;">
+        <button mat-raised-button style="background-color: #000000; color: aliceblue;margin-bottom: 30px;">Cancel</button>
+      </div>
+  </mat-card>
+  </form>
+  </div>
+
+
+  
+ <!-- <div class="main-part" >
+    <h1 style="text-align: left;margin-top: 15px;font-size: 24px;font-weight: 500;">Add New Card</h1>
+    <h2 style="text-align: left;color: #686363;font-size: 14px;margin-top: -20px;">Visa / Master / Amex</h2> 
+ <form [formGroup] = "form">
+<mat-card >
+    <div style="display: block;">
+        <input  placeholder="Enter cardholder name" formControlName = "cardholderName" >
+    </div>
+  
+    <div style="display: block;">
+        <input  placeholder="Enter credit card number" formControlName = "creditCardNumber" >
+    </div>
+  
+    <div style="display: block;">
+        <input  placeholder="MM/YY" formControlName = "expirationDate">
+    </div>
+  
+    <div style="display: block;">
+        <input  placeholder="Enter CVV" formControlName = "cvv" style="margin-bottom: 30px;">
+    </div>
+  
+    <div style="display: block; margin-bottom: 30px;">
+        <button mat-raised-button style="background-color: #F8C806;" >Save</button>
+      </div>
+  
+      <div style="display: block;">
+        <button mat-raised-button style="background-color: #000000; color: aliceblue;margin-bottom: 30px;">Cancel</button>
+      </div>
+  </mat-card>
+  </form>
+  </div> -->

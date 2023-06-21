@@ -1,0 +1,21 @@
+.spacer{
+    flex: 1 1 auto
+}
+
+.btn-logo{
+    font-size: 25px;
+}
+
+.mat-toolbar-single-row{
+    background-color: #EAD215;
+}
+
+img{
+    margin-left: 10px;
+    transition: all 0.1s;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}

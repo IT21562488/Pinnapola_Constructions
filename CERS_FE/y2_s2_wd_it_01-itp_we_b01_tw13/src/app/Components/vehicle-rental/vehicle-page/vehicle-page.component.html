@@ -1,0 +1,163 @@
+<form [formGroup]="vehicleRentalForm">
+  <section class="bg-dark padding-y-sm">
+
+    <div class="container">
+
+      <ol class="breadcrumb ondark mb-0" *ngFor="let data of dataSource">
+        <li class="breadcrumb-item"><a href="#">Vehicle Rental</a></li>
+        <li class="breadcrumb-item"><a href="#">{{data.vehicleCategoryDescription}}</a></li>
+        <li class="breadcrumb-item active" aria-current="page" >{{data.name}}</li>
+      </ol>
+
+    </div>
+  </section>
+  <section class="padding-y">
+    <div class="container">
+
+      <div class="row">
+        <aside class="col-lg-6">
+          <article class="gallery-wrap">
+            <div class="img-big-wrap img-thumbnail">
+              <a data-fslightbox="mygalley" data-type="image" *ngFor="let data of dataSource" href={{data.imagePath}}>
+                <img height="560" src={{data.imagePath}}>
+              </a>
+            </div>
+          </article>
+        </aside>
+        <main class="col-lg-6">
+          <article class="ps-lg-3">
+            <h2 class="title text-dark" *ngFor="let data of dataSource">{{data.name}}</h2>
+            <div class="rating-wrap my-3">
+              <b class="label-rating text-warning"> 4.5</b>
+              <!-- <i class="dot"></i>
+              <span class="label-rating text-muted"> <i class="fa fa-shopping-basket"></i> 154 orders </span> -->
+              <i class="dot"></i>
+              <span class="label-rating text-success">In stock</span>
+            </div> <!-- rating-wrap.// -->
+
+            <div class="mb-3">
+              <span class="text-muted">LKR  </span>
+              <var class="price h5" *ngFor="let data of dataSource">{{data.price | number: '1.2-2'}}</var>
+              <span class="text-muted">/per day</span>
+            </div>
+
+            <p *ngFor="let data of dataSource">{{ data.description }}</p>
+
+            <dl class="row" *ngFor="let data of dataSource">
+              <dt class="col-3">Security Amount:</dt>
+              <dd class="col-9">{{ data.securityAmount }}</dd>
+
+              <dt class="col-3">Net Power:</dt>
+              <dd class="col-9">{{ data.feature1 }}</dd>
+
+              <dt class="col-3">Operating Weight</dt>
+              <dd class="col-9">{{ data.feature2 }}</dd>
+
+              <dt class="col-3">Brand</dt>
+              <dd class="col-9">{{ data.feature3 }}</dd>
+            </dl>
+
+            <hr>
+
+            <div class="row mb-4">
+              <div class="col-md-4 col-6 mb-2">
+                <label class="form-label">Rental Type</label>
+                <select class="form-select">
+                  <option>Short Term - Upto 30 Days</option>
+                  <option>Long Term - More tham 30 Days</option>
+                </select>
+              </div>
+              <div class="col-md-4 col-6 mb-3">
+                <label class="form-label d-block">Quantity</label>
+                <div class="input-group input-spinner">
+                  <input formControlName="quantity" class="form-control text-center" placeholder="0" #quantity>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-md-4 col-6 mb-3">
+                <label class="form-label d-block">From Date</label>
+                <mat-form-field appearance="fill">
+                  <mat-label>Choose a date</mat-label>
+                  <input formControlName="fromDate" matInput [matDatepicker]="picker" [(ngModel)]="selectedDate">
+                  <mat-hint>MM/DD/YYYY</mat-hint>
+                  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                  <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+              </div>
+              <div class="col-md-4 col-6 mb-3">
+                <label class="form-label d-block">To Date</label>
+                <mat-form-field appearance="fill">
+                  <mat-label>Choose a date</mat-label>
+                  <input formControlName="toDate" matInput [matDatepicker]="picker1" [(ngModel)]="selectedDate1">
+                  <mat-hint>MM/DD/YYYY</mat-hint>
+                  <mat-datepicker-toggle matIconSuffix [for]="picker1"></mat-datepicker-toggle>
+                  <mat-datepicker #picker1></mat-datepicker>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <button class="btn  btn-warning" (click)="emitDataToInsert()" routerLink="MakePayment" 
+              [disabled]="!quantity.value || !selectedDate1 || !selectedDate"> Buy now 
+            </button>
+            <a class="btn  btn-dark"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </a>
+
+          </article>
+        </main>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <section class="padding-y bg-light border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="card">
+            <header class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a href="#" data-bs-target="#tab_specs" data-bs-toggle="tab" class="nav-link active">Specification</a>
+                </li>
+              </ul>
+            </header>
+            <div class="tab-content">
+              <article id="tab_specs" class="tab-pane show active card-body">
+
+                <table class="table border table-hover">
+                  <tr>
+                    <th> Display: </th>
+                    <td> 13.3-inch LED-backlit display with IPS </td>
+                  </tr>
+                  <tr>
+                    <th> Processor capacity: </th>
+                    <td> 2.3GHz dual-core Intel Core i5 </td>
+                  </tr>
+                  <tr>
+                    <th> Camera quality: </th>
+                    <td>720p FaceTime HD camera </td>
+                  </tr>
+                  <tr>
+                    <th> Memory </th>
+                    <td> 8 GB RAM or 16 GB RAM </td>
+                  </tr>
+                  <tr>
+                    <th> Graphics </th>
+                    <td> Intel Iris Plus Graphics 640 </td>
+                  </tr>
+                </table>
+              </article>
+
+            </div>
+          </div>
+        </div>
+        <aside class="col-lg-4">
+        </aside>
+      </div>
+
+      <br><br>
+
+    </div>
+
+  </section> -->
+</form>

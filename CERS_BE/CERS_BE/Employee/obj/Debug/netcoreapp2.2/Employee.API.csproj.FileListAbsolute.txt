@@ -1,0 +1,57 @@
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.deps.json
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.json
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.dev.json
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorTargetAssemblyInfo.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CopyComplete
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.deps.json
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.json
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.dev.json
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.API.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorTargetAssemblyInfo.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CopyComplete
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.API.pdb
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.API.deps.json
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.json
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.API.runtimeconfig.dev.json
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.API.dll
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.API.pdb
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.Models.dll
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+C:\CERS_BE\CERS_BE\Employee\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.csprojAssemblyReference.cache
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CoreCompileInputs.cache
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cache
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorAssemblyInfo.cs
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfoInputs.cache
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.AssemblyInfo.cs
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.RazorTargetAssemblyInfo.cache
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.csproj.CopyComplete
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.dll
+C:\CERS_BE\CERS_BE\Employee\obj\Debug\netcoreapp2.2\Employee.API.pdb

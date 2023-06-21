@@ -1,0 +1,154 @@
+<form [formGroup]="extendMachineryRentalForm">
+    <section class="bg-dark padding-y-sm">
+
+        <div class="container">
+
+            <ol class="breadcrumb ondark mb-0">
+                <li class="breadcrumb-item"><a href="#">Profile</a></li>
+                <li class="breadcrumb-item"><a href="#">My Rentals</a></li>
+                <li class="breadcrumb-item"><a href="#">Extend Rental</a></li>
+                <li class="breadcrumb-item active" aria-current="page">RentalID - {{extendData.rentalID}}</li>
+            </ol>
+
+        </div>
+    </section>
+    <section class="padding-y">
+        <div class="container">
+
+            <div class="row">
+                <aside class="col-lg-6">
+                    <article class="gallery-wrap">
+                        <div class="img-big-wrap img-thumbnail">
+                            <a data-fslightbox="mygalley" data-type="image" href={{extendData.imagePath}}>
+                                <img height="560" src={{extendData.imagePath}}>
+                            </a>
+                        </div>
+                    </article>
+                </aside>
+                <main class="col-lg-6">
+                    <article class="ps-lg-3">
+                        <div class="mb-3">
+                            <var class="price h5">{{extendData.rentalID}}</var>
+                            <span class="text-muted">/Rental ID</span>                            
+                        </div>
+                        <h2 class="title text-dark">{{extendData.equipmentDescription}}</h2>
+                        <div class="rating-wrap my-3">
+                            <ul class="rating-stars">
+                                <li style="width:80%" class="stars-active"> <img
+                                        src="assets/images/misc/stars-active.svg" alt=""> </li>
+                                <li> <img src="assets/images/misc/starts-disable.svg" alt=""> </li>
+                            </ul>
+                            <b class="label-rating text-warning"> 4.5</b>
+                            <i class="dot"></i>
+                            <span class="label-rating text-success">In stock</span>
+                        </div> <!-- rating-wrap.// -->
+
+                        <div class="mb-3">
+                            <span class="text-muted">LKR  </span>
+                            <var class="price h5">{{extendData.rentalAmount | number: '1.2-2'}}</var>
+                            <span class="text-muted">/Rental Amount</span>                            
+                        </div>
+
+                        <p>* <br>
+                            One of our agents will review the requested date and will either Approve or Reject your rental extension request
+                        </p>
+
+                        <dl class="row">
+                            <dt class="col-3">Security Amount:</dt>
+                            <dd class="col-9">{{ extendData.securityDeposit }}</dd>
+                        </dl>
+
+                        <hr>
+
+                        <div class="row mb-4">
+                            <div class="col-md-4 col-6 mb-3">
+                                <label class="form-label d-block">Quantity</label>
+                                <div class="input-group input-spinner">
+                                    <input class="form-control text-center" [disabled]="true" placeholder="0" value="{{ extendData.quantity }}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-4 col-6 mb-3">
+                                <label class="form-label d-block">From Date</label>
+                                <mat-form-field appearance="fill">
+                                    <!-- <mat-label>Choose a date</mat-label> -->
+                                    <input  formControlName="fromDate" matInput [matDatepicker]="picker" [disabled]="true">
+                                    <mat-hint>MM/DD/YYYY</mat-hint>
+                                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-4 col-6 mb-3">
+                                <label class="form-label d-block">To Date</label>
+                                <mat-form-field appearance="fill">
+                                    <mat-label>Enter a new To Date</mat-label>
+                                    <input formControlName="toDate" matInput [matDatepicker]="picker1" [(ngModel)]="selectedDate">
+                                    <mat-hint>MM/DD/YYYY</mat-hint>
+                                    <mat-datepicker-toggle matIconSuffix [for]="picker1"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker1></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                        </div>
+
+                        <button class="btn  btn-warning" (click)="requestExtension()" [disabled]="!selectedDate"> Request Extension </button>
+                    </article>
+                </main>
+            </div>
+
+        </div>
+    </section>
+<!-- 
+    <section class="padding-y bg-light border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <header class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a href="#" data-bs-target="#tab_specs" data-bs-toggle="tab"
+                                        class="nav-link active">Specification</a>
+                                </li>
+                            </ul>
+                        </header>
+                        <div class="tab-content">
+                            <article id="tab_specs" class="tab-pane show active card-body">
+
+                                <table class="table border table-hover">
+                                    <tr>
+                                        <th> Display: </th>
+                                        <td> 13.3-inch LED-backlit display with IPS </td>
+                                    </tr>
+                                    <tr>
+                                        <th> Processor capacity: </th>
+                                        <td> 2.3GHz dual-core Intel Core i5 </td>
+                                    </tr>
+                                    <tr>
+                                        <th> Camera quality: </th>
+                                        <td>720p FaceTime HD camera </td>
+                                    </tr>
+                                    <tr>
+                                        <th> Memory </th>
+                                        <td> 8 GB RAM or 16 GB RAM </td>
+                                    </tr>
+                                    <tr>
+                                        <th> Graphics </th>
+                                        <td> Intel Iris Plus Graphics 640 </td>
+                                    </tr>
+                                </table>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-lg-4">
+                </aside>
+            </div>
+
+            <br><br>
+
+        </div>
+
+    </section> -->
+</form>

@@ -1,0 +1,64 @@
+
+<div class = "top">
+<p>All Transcation</p>
+<button style="margin-left: 820px;"  routerLink="ViewInvoice">Invoices</button>
+  <button style="margin-right: 50px;" routerLink="OrderSummary"> Sales OverView</button>
+</div>
+
+<div class="optionsBar">
+  <input type="text" placeholder="Search Records Here ">
+  <div class="sort-options">
+   
+    <select >
+      <option value="sort1">Last 7 Days</option>
+      <option value="sort2">Last 14 Days</option>
+      <option value="sort3">In this Month</option>
+    </select>
+  </div>
+
+</div>
+    
+<div class="container">
+<div style="margin-top: 10px;">
+
+<div class="mat-elevation-z8">
+    <table class="table table-striped" mat-table [dataSource]="dataSource" matSort>
+
+
+    <ng-container matColumnDef="TranscationID">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> TranscationID </th>
+      <td mat-cell *matCellDef="let row"> {{row.transcationID}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="TransacationDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> TransacationDate </th>
+      <td mat-cell *matCellDef="let row"> {{row.transcationDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Amount">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Amount(LKR) </th>
+      <td mat-cell *matCellDef="let row"> {{row.amount}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="TransacationMethod">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> TransacationMethod </th>
+      <td mat-cell *matCellDef="let row"> {{row.transcationMethod}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="SecurityAmount">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> SecurityAmount(LKR) </th>
+      <td mat-cell *matCellDef="let row">{{row.securityAmount}} </td>
+    </ng-container>
+
+    
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </table>
+  
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,5 @@
+.home-grid {
+  display: grid;
+  grid-row-gap: 200px; /* Gap between rows */
+  grid-column-gap: 100px; /* Gap between columns */
+}

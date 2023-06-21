@@ -1,0 +1,42 @@
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.deps.json
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csprojAssemblyReference.cache
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CoreCompileInputs.cache
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfoInputs.cache
+D:\SAviru\Misc\Emp New\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.deps.json
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CopyComplete
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Employee Sample\APIs\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.deps.json
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csprojAssemblyReference.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CoreCompileInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfoInputs.cache
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfo.cs
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CopyComplete
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.dll
+D:\SLIIT\Y2\S2\ITP\Construction Equipment Rental System\CERS_BE\Employee\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.pdb
+C:\CERS_BE\CERS_BE\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.deps.json
+C:\CERS_BE\CERS_BE\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.dll
+C:\CERS_BE\CERS_BE\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Repository.pdb
+C:\CERS_BE\CERS_BE\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.dll
+C:\CERS_BE\CERS_BE\Employee.Repository\bin\Debug\netcoreapp2.2\Employee.Models.pdb
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csprojAssemblyReference.cache
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CoreCompileInputs.cache
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfoInputs.cache
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.AssemblyInfo.cs
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.csproj.CopyComplete
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.dll
+C:\CERS_BE\CERS_BE\Employee.Repository\obj\Debug\netcoreapp2.2\Employee.Repository.pdb

@@ -1,0 +1,90 @@
+<div class = "top">
+  <p >All Invoice</p>
+  <!-- <button style="margin-left: 850px;"  routerLink="ViewInvoice">Invoices</button> -->
+    <button style="margin-right: 100px;" class="btn" routerLink="SalesOverview"> Sales OverView</button>
+  </div>
+  
+  <div class="optionsBar">
+    <input type="text" placeholder="Search Records Here ">
+    <div class="sort-options">
+     
+      <select >
+        <option value="sort1">Last 7 Days</option>
+        <option value="sort2">Last 14 Days</option>
+        <option value="sort3">In this Month</option>
+      </select>
+    </div>
+  
+  </div>
+
+<div class="container">
+<div style="margin-top: 10px;">
+
+<div class="mat-elevation-z8">
+    <table class="table table-striped" mat-table [dataSource]="dataSource" matSort>
+
+
+    <ng-container matColumnDef="InvoiceID">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> InvoiceID </th>
+      <td mat-cell *matCellDef="let row"> {{row.invoiceID}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="InvoiceDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>InvoiceDate </th>
+      <td mat-cell *matCellDef="let row"> {{row.invoiceDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> ProductName </th>
+      <td mat-cell *matCellDef="let row"> {{row.productName}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="SecurityAmount">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> SecurityAmount </th>
+      <td mat-cell *matCellDef="let row"> {{row.securityAmount}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="StartDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> StartDate </th>
+      <td mat-cell *matCellDef="let row"> {{row.startDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="EndDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> EndDate </th>
+      <td mat-cell *matCellDef="let row"> {{row.endDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="QTY">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> QTY </th>
+        <td mat-cell *matCellDef="let row"> {{row.qty}} </td>
+      </ng-container>
+      <ng-container matColumnDef="PricePerDay">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> PricePerDay </th>
+        <td mat-cell *matCellDef="let row"> {{row.pricePerDay}} </td>
+      </ng-container>
+      
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
+        <td mat-cell *matCellDef="let row"> 
+           <button mat-icon-button (click)="extendInvoice(row)" color="primary">
+            <mat-icon>edit</mat-icon>
+           </button>
+           
+        </td>
+      </ng-container>
+      
+    
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </table>
+
+ 
+</div>
+</div>
+</div>
+
+
+
+

@@ -1,0 +1,63 @@
+<div class="main-section">
+    <div class="Header-section">
+        <h2>Extend Invoice</h2>
+    </div>
+
+    <div class="formfields" >
+        <!-- <form action=""> -->
+        <form [formGroup] = "ExtendInvoice">
+           
+            <mat-label >Invoice No</mat-label>
+            <mat-form-field appearance="outline" style=" margin-left: 60px;margin-top: 18px;">
+                <input formControlName="InvoiceNo" matInput type="text" readonly="true" > 
+            </mat-form-field><br>
+             
+            <mat-label>Invoice Date</mat-label>
+            <mat-form-field appearance="outline" style=" margin-left: 48px;">
+                <input formControlName="InvoiceDate" matInput type="text" readonly="true" > 
+            </mat-form-field><br>
+        
+
+            <mat-label>Product Name</mat-label>
+            <mat-form-field appearance="outline" style=" margin-left: 33px;">
+               <input formControlName="ProductName" matInput type="text" readonly="true"> 
+            </mat-form-field><br>
+        
+
+            <mat-label>Security Amount</mat-label>
+            <mat-form-field appearance="outline"style=" margin-left: 15px;">
+               <input formControlName="Samount" matInput type="text" readonly="true" > 
+            </mat-form-field><br>
+
+            <!-- <mat-label>Quantity</mat-label>
+            <mat-form-field appearance="outline"style=" margin-left: 80px;">
+               <input formControlName="qty" matInput type="text" > 
+            </mat-form-field><br> -->
+
+            <mat-label>Price Per Date</mat-label>
+            <mat-form-field appearance="outline"style=" margin-left: 34px;">
+                <input formControlName="PricepDay" matInput type="text" readonly="true"> 
+            </mat-form-field><br>
+            
+            <mat-label>Start Date</mat-label>
+            <mat-form-field appearance="outline"style=" margin-left: 68px;">
+               <input formControlName="startDate" matInput type="text" readonly="true"> 
+            </mat-form-field><br>
+  
+            <mat-label>End Date</mat-label>
+            <mat-form-field appearance="outline" style=" margin-left: 76px;">
+                <input formControlName="endDate" matInput type="text" > 
+            </mat-form-field><br>
+            
+            <!-- <mat-label>Price Per Date</mat-label>
+            <mat-form-field appearance="outline"style=" margin-left: 30px;">
+                <input formControlName="PricepDay" matInput type="text" > 
+            </mat-form-field> -->
+        </form>
+    </div>
+     <div mat-dialog-actions [align]="'end'" class="btn">
+        <!-- <button mat-raised-button color="warm" mat-dialog-close>Close</button> -->
+        <button (click)="updateEmployee()">Update</button> 
+        <!-- <button mat-raised-button color="primary" (click)="updateEmployee()">{{actionBtn}}</button> -->
+    </div> 
+</div>

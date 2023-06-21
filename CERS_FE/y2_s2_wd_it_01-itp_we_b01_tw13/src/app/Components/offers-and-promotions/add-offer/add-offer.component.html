@@ -1,0 +1,75 @@
+<div class="header"><br><h1 mat-dialog-title style="color: aliceblue; padding-left: 20px;">{{ModalTitle}}</h1>
+</div>
+<div class="custom-color">
+  
+    <form [formGroup] = "OfferForm">
+        
+            <label class="col-sm-2 col-form-label ">Offer Type</label>
+            
+            <div class="col-sm-10 align-right" >
+            <select class="form-control" formControlName="offerType">
+                <option value="Weekly">Weekly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Loyality">Loyality</option>
+            </select>
+            </div>
+           
+         <br>
+       
+            <label class="col-sm-2 col-form-label ">Offer Name</label>
+            <div class="col-sm-10 ">
+            <input class="form-control" formControlName="offerName"  type="text" placeholder="Enter Offer Name"> 
+            </div>
+         <br>
+            <label class="col-sm-2 col-form-label ">Offer Description</label>
+            <div class="col-sm-10">
+            <textarea class="form-control" rows="4" cols="50" formControlName="offerDescription"  type="text" placeholder="Enter Offer Description"></textarea> 
+            </div>
+        <br>
+    
+        
+            <label class="col-sm-2 col-form-label ">Offer Period</label>
+            <div class="col-sm-10">
+            <input class="form-control" formControlName="offerPeriod"  type="text" placeholder="Enter Offer Period"> 
+            </div>
+        <br>
+
+       
+            <label class="col-sm-2 col-form-label ">Offer Condition</label>
+            <div class="col-sm-10 ">
+            <textarea class="form-control" rows="4" cols="50" formControlName="offerConditions"  type="text" placeholder="Enter Terms & Conditions"></textarea>
+            </div>
+        <br>
+
+            <label class="col-sm-2 col-form-label ">Discount</label>
+            <div class="col-sm-10" >
+            <input class="form-control" formControlName="offerDiscount"  type="number" placeholder="Enter discount " min="0" max="100">
+            </div> 
+        
+        <br>
+            <label class="col-sm-2 col-form-label ">Valid item ID</label>
+            <div class="col-sm-10">
+            <input class="form-control" formControlName="offerMachineID"  type="text" placeholder="Enter MachineID"> 
+            </div>
+        
+        <br>
+            <label class="col-sm-2 col-form-label ">Offer Image</label>
+            <div class="col-sm-10 ">
+                <input type="file" formControlName="PhotoFileName" (change)="onChange($event)" class="fileChoose"/><br><br>
+                <img [src]="productImage" height="250px;" width="200px;" ><br><br>
+                
+                
+                
+                
+            </div>
+    </form>
+    <br><br>
+<div class="button-container">
+<div mat-dialog-actions [align]="'center'" >
+    <button mat-raised-button color="warm" mat-dialog-close>Close</button>
+    <button mat-raised-button style="background-color: rgb(38, 37, 37); color: white;" (click)="addOffer()">{{actionBtn}}</button>
+</div>
+</div>
+<br><br>
+</div>
+<br> <br>

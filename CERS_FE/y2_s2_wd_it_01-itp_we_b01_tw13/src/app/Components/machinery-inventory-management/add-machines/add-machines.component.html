@@ -1,0 +1,68 @@
+<div class="header"><br><h1 mat-dialog-title style="color: aliceblue; padding-left: 20px;">Add Machines Form</h1>
+</div>
+<div class="custom-color">
+  
+    <form [formGroup] = "MachineForm">
+        
+            <label class="col-sm-2 col-form-label ">Category</label>
+            
+            <div class="col-sm-10 align-right" >
+            <select class="form-control" formControlName="category">
+                <option value="Lifting Equipments">Lifting Equipments</option>
+                <option value="Portable Tools">Portable Tools</option>
+                <option value="Mixtures">Mixtures</option>
+                <option value="Safety Equipments">Safety Equipments</option>
+                <option value="Survey Equipments">Survey Equipments</option>
+                <option value="Other Equipments">Other Equipments</option>
+            </select>
+            </div>
+           
+         <br>
+       
+            <label class="col-sm-2 col-form-label ">Machine Name</label>
+            <div class="col-sm-10 ">
+            <input class="form-control" formControlName="machineName"  type="text" placeholder="Enter Machine Name"> 
+            </div>
+         <br>
+         <label class="col-sm-2 col-form-label ">Description</label>
+         <div class="col-sm-10 ">
+         <textarea class="form-control" rows="4" cols="50" formControlName="description"  type="text" placeholder="Enter Description"></textarea>
+         </div>
+        <br>
+    
+        
+            <label class="col-sm-2 col-form-label ">Machine Price</label>
+            <div class="col-sm-10">
+            <input class="form-control" formControlName="machinePrice"  type="number" placeholder="Enter Machine Price" min="0" max="1000000000"> 
+            </div>
+        <br>
+
+       
+        <label class="col-sm-2 col-form-label ">Count</label>
+        <div class="col-sm-10">
+        <input class="form-control" formControlName="count"  type="number" placeholder="Enter Count"  min="0" max="10000"> 
+        </div>
+        <br>
+
+        <label class="col-sm-2 col-form-label ">Machine Image</label>
+            <div class="col-sm-10 ">
+                <input type="file" formControlName="PhotoFileName" (change)="onChange($event)" class="fileChoose"/><br><br>
+                <img [src]="productImage" height="250px;" width="200px;" ><br><br>
+                
+                
+                
+                
+            </div>
+
+           
+    </form>
+    <br><br>
+<div class="button-container">
+<div mat-dialog-actions [align]="'center'" >
+    <button mat-raised-button color="warm" mat-dialog-close>Close</button>
+    <button mat-raised-button style="background-color: rgb(38, 37, 37);color: white;" (click)="addMachine()">{{actionBtn}}</button>
+</div>
+</div>
+<br><br>
+</div>
+<br> <br>

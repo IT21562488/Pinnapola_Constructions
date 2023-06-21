@@ -1,0 +1,20 @@
+<div class="row" *ngFor="let item of ItemList">
+    <h2 class="topic">{{item.category}}</h2>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../../assets/concrete-mixer.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>{{item.name}}</h1>
+          <p>{{item.description}}</p>
+            <div class="flip-card-back-price">
+              <p class="Price">{{item.price}}</p>
+              <p>incl. local Tax & Shipping</p>
+            </div>
+          <button type="button" routerLink="machinerypage" class="block">View More</button>
+        </div>
+      </div>
+    </div>
+</div>

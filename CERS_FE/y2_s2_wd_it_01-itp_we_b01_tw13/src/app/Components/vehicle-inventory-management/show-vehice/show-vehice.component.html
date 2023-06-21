@@ -1,0 +1,127 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="./show-vehice.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <mat-toolbar>
+    <span>Vehicle Inventory Management</span>
+    <span class="example-spacer" style="flex: 1 1 auto;"></span>
+    <button type="button" class="btn btn-dark float-right m-2" data-toggle="modal" data-target="#exampleModal"
+    (click)="openDialog()"
+    data-backdrop="static" data-keyboard="false"  >Add Vehicle</button>
+    <button (click)="makePDF()" type="button" class="btn btn-dark float-right m-2"
+    data-backdrop="static" data-keyboard="false"  >Download <i class="fas fa-download"></i></button>
+  </mat-toolbar>
+  
+  <div class="hidden">
+    <div id="content" #content>
+    <table class="offer-table">
+      <thead>
+        <tr>
+          <th>Vehicle ID</th>
+          <th>Category</th>
+          <th>Vehicle Name</th>
+          <th>Description</th>
+          <th>VehiclePrice</th>
+          <th>Count</th>
+    
+        </tr>
+      </thead>    
+      <tbody>
+        <tr *ngFor="let item of vehiList">
+          <td>{{item.vehicleID}}</td>
+          <td>{{item.category}}</td>
+          <td>{{item.vehicleName}}</td>
+          <td>{{item.description}}</td>
+          <td>{{item.vehiclePrice}}</td>
+          <td>{{item.count}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+  
+  <div class="container">
+  <div>
+    <br>
+    <div class="search-bar" style="display: flex;
+    align-items: center;
+    border: 1px solid #898686;
+    border-radius: 5px;
+    height:35px ;
+    width: 300px;">
+      <input matInput (keyup)="applyFilter($event)" placeholder="Search" #input>
+      <div class="input-group-append">
+        <button style="float: left;
+        background: #ffffff;
+        height:30px ;
+        border: none;
+        cursor: pointer;"><i class="fa fa-search" style="color: rgb(97, 96, 96);"></i></button>
+      </div>
+     
+    </div><br>
+
+
+  
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort class="table table-striped custom-table" >
+  
+      <ng-container matColumnDef="vehicleID">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header > VehicleID </th>
+        <td mat-cell *matCellDef="let row"  class="custom-cell"> {{row.vehicleID}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="category">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header > Category</th>
+        <td mat-cell *matCellDef="let row"  class="custom-cell"> {{row.category}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="vehicleName">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> VehicleName </th>
+        <td mat-cell *matCellDef="let row" class="custom-cell"> {{row.vehicleName}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Description </th>
+        <td mat-cell *matCellDef="let row"  class="custom-cells"> {{row.description}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="vehiclePrice">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> VehiclePrice </th>
+        <td mat-cell *matCellDef="let row" class="custom-cells"> {{row.vehiclePrice}} </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="count">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Count</th>
+        <td mat-cell *matCellDef="let row" class="custom-cells"> {{row.count}} </td>
+      </ng-container>
+  
+  
+       <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
+        <td mat-cell *matCellDef="let row"> 
+          <div style="display: flex; align-items: center;">
+            <button mat-icon-button (click)="editVehicle(row)" color="btn-dark">
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button (click)="deleteVehicle(row.vehicleID)" color="warm">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </div>
+        </td>
+      </ng-container>
+  
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  
+      <!-- Row shown when there is no matching data. -->
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+      </tr>
+    </table>
+  
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+  </div>
+  </div>
+  </div>
+  <br><br><br>

@@ -1,0 +1,23 @@
+<mat-grid-list class="home-grid" cols="4" rowHeight="350px" >
+  <div style="position: relative; text-align: center;">
+
+  <mat-grid-tile 
+    *ngFor="let card of cards" 
+    [routerLink]="card.route" 
+    style="background-color: rgb(255, 255, 255);" >
+      
+      <img 
+        src="{{ card.img }}" 
+        style="width: 95%; height: 95%; opacity: 1; border-radius: 10px; filter: brightness(50%);">
+        
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+        color: rgb(255, 255, 255); font-size: 50px; font-weight: bold; line-height: 1;
+        text-shadow: 4px 4px  rgb(0, 0, 0)">
+        {{ card.data }}
+      </div>
+
+  </mat-grid-tile>
+
+</div>
+</mat-grid-list>
+

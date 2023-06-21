@@ -1,0 +1,67 @@
+<div class="header"><br><h1 mat-dialog-title style="color: aliceblue; padding-left: 20px;">Add Vehicles Form</h1>
+</div>
+<div class="custom-color">
+  
+    <form [formGroup] = "VehicleForm">
+        
+            <label class="col-sm-2 col-form-label ">Category</label>
+            
+            <div class="col-sm-10 align-right" >
+            <select class="form-control" formControlName="category">
+                <option value="Trucks">Trucks</option>
+                <option value="Loaders">Loaders</option>
+                <option value="Excavators">Excavators</option>
+                <option value="Backhoes">Backhoes</option>
+                <option value="Compactors">Compactors</option>
+                <option value="Cranes">Cranes</option>
+            </select>
+            </div>
+           
+         <br>
+       
+            <label class="col-sm-2 col-form-label ">Vehicle Name</label>
+            <div class="col-sm-10 ">
+            <input class="form-control" formControlName="vehicleName"  type="text" placeholder="Enter Vehicle Name"> 
+            </div>
+         <br>
+         <label class="col-sm-2 col-form-label ">Description</label>
+         <div class="col-sm-10 ">
+         <textarea class="form-control" rows="4" cols="50" formControlName="description"  type="text" placeholder="Enter Description"></textarea>
+         </div>
+        <br>
+    
+        
+            <label class="col-sm-2 col-form-label ">Vehicle Price</label>
+            <div class="col-sm-10">
+            <input class="form-control" formControlName="vehiclePrice"  type="text" placeholder="Enter Vehicle Price"> 
+            </div>
+        <br>
+
+       
+        <label class="col-sm-2 col-form-label ">Count</label>
+        <div class="col-sm-10">
+        <input class="form-control" formControlName="count"  type="text" placeholder="Enter Count"> 
+        </div>
+        <br>
+
+        <label class="col-sm-2 col-form-label ">Vehicle Image</label>
+        <div class="col-sm-10 ">
+            <input type="file" formControlName="PhotoFileName" (change)="onChange($event)" class="fileChoose"/><br><br>
+            <img [src]="productImage" height="250px;" width="200px;" ><br><br>
+            
+            
+            
+            
+        </div>
+           
+    </form>
+    <br><br>
+<div class="button-container">
+<div mat-dialog-actions [align]="'center'" >
+    <button mat-raised-button color="warm" mat-dialog-close>Close</button>
+    <button mat-raised-button style="background-color: rgb(38, 37, 37);color: white;" (click)="addVehicle()">{{actionBtn}}</button>
+</div>
+</div>
+<br><br>
+</div>
+<br> <br>

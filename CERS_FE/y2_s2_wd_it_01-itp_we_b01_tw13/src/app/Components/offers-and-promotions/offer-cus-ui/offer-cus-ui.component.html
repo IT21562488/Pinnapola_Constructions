@@ -1,0 +1,43 @@
+<div style="background-image: url('../../../../assets/OfferImages/offerCover.jpg') ; background-size: cover; background-position: center center; width: 100%; height: 300px; ">
+<div style="margin-left: 40px;  ">
+  <br><br>
+<h1 style="text-align: left; text-shadow: 3px 3px #000000; font-size: 60px; font-weight: bold; color: aliceblue; ">OFFERS AND PROMOTIONS</h1><br>
+<h3 style="text-align: left; text-shadow: 3px 3px #000000; font-size: 40px;  color: aliceblue; margin-left: 30px;">Find best deals</h3> 
+<a href="#" class="btn  btn-warning" routerLink="showoffer"> Manage Offers </a>
+<br><br>
+</div>
+</div>
+<br><br><br>
+<h1 style="text-align: center; text-shadow: 2px 2px #fefefe; font-size: 40px; font-weight: bold; color: rgb(5, 5, 5); filter: contrast(100%);">Best Deals</h1>
+<div class="card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 90%; text-align: center; margin: auto;">
+<br><br><br><br>
+
+<mat-grid-list class="home-grid" cols="1" rowHeight="350px"  >
+  <div style="position: relative; text-align: center;">
+
+  <mat-grid-tile 
+    *ngFor="let card of cards" 
+    [routerLink]="card.route" 
+    style="background-color: rgb(255, 255, 255);" >
+      
+      <img 
+        src="{{ card.img }}" 
+        style="width: 70%; height: 80%; opacity: 1; border-radius: 10px; filter: brightness(90%);">
+        
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+        color: rgb(0, 0, 0); font-size: 60px; font-weight: bold; line-height: 1;
+        text-shadow: 4px 4px  rgb(255, 255, 255)">
+        {{ card.data }}
+      </div>
+  
+  </mat-grid-tile>
+  
+</div>
+</mat-grid-list>
+<br><br><br><br>
+</div>
+<br><br>
+
+

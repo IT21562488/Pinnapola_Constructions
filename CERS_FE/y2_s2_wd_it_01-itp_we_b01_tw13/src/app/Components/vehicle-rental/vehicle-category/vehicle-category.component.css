@@ -1,0 +1,61 @@
+.banner{
+    height: 225px;
+  }
+  .banner-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("src/assets/Equipment Category/Vehicle/Banner.jpg");
+    height:225px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .banner-text-main{
+    font-size: xx-large;
+    padding-top: 5%;
+    font-weight: 500;
+  }
+  
+  .banner-text {
+    text-align: left;
+    padding-left: 35px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .cat-topic{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .col-lg-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2   );
+    max-width: 300px;
+    max-height: 500PX;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+  }
+  
+  .cat_btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: #f8c806;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  .cat_btn:hover {
+    opacity: 0.7;
+  }
+  
+  
+  

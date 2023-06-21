@@ -1,0 +1,155 @@
+.modal-header {
+  background-color: #000000; /* set to any color you want */
+  color:#ffffff ;
+  
+}
+.modal-header h5 {
+  text-align: center;
+}
+.close{
+  background-color: #ffffff;
+  height: 80px;
+}
+
+.modal-body {
+  background-color: #EAD215; /* set to any color you want */
+}
+
+.modal-footer {
+  background-color: #EAD215; /* set to any color you want */
+}
+
+
+
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-elevation-z8{
+  width: 100%;
+ 
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+table.custom-table {
+  width: 100%;
+}
+
+.container {
+    max-width: 2000px;
+    margin:0 auto;
+    
+}
+
+.mat-column-offerID,
+.mat-column-offerType,
+.mat-column-offerName,
+.mat-column-offerDiscount,
+.mat-column-offerMachineID,
+.mat-column-offerVehicleID ,
+.mat-column-action {
+padding-right: 20px;
+
+ /* Increase the padding here as desired */
+}
+
+.mat-column-offerPeriod,
+.mat-column-offerDescription,
+.mat-column-offerCondition {
+padding-right: 43px; /* Increase the padding here as desired */
+
+
+}
+.custom-cell{
+padding-right: 20px;
+
+}
+.custom-cells{
+padding-right: 43px;
+
+}
+
+.mat-header-cell {
+background-color: #323131;
+color: #ffffff; 
+font-size: 16px;
+
+
+}
+
+table {
+border-collapse: collapse;
+}
+
+td {
+border: 1px solid rgb(203, 203, 199);
+padding: 8px;
+
+}
+th{
+text-align: center;
+}
+button[color="warm"] {
+color: rgb(196, 0, 0);
+
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c6bdbd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  flex: 1;
+  margin-right: 5px;
+  background-color: #7a7474;
+  
+}
+
+.search-bar button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.search-bar button[type="submit"] i {
+  margin-right: 5px;
+}
+.search-bar .input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #615e5e;
+}
+.hidden {
+  display: none;
+}
+
+.offer-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.offer-table th, .my-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.offer-table th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.offer-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

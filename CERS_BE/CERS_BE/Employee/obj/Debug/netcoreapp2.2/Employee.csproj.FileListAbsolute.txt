@@ -1,0 +1,11 @@
+D:\SAviru\Misc\Emp New\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.deps.json
+D:\SAviru\Misc\Emp New\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.runtimeconfig.json
+D:\SAviru\Misc\Emp New\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.runtimeconfig.dev.json
+D:\SAviru\Misc\Emp New\Employee\Employee\bin\Debug\netcoreapp2.2\Employee.dll
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.csprojAssemblyReference.cache
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.csproj.CoreCompileInputs.cache
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.RazorAssemblyInfo.cache
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.RazorAssemblyInfo.cs
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.AssemblyInfoInputs.cache
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.AssemblyInfo.cs
+D:\SAviru\Misc\Emp New\Employee\Employee\obj\Debug\netcoreapp2.2\Employee.RazorTargetAssemblyInfo.cache

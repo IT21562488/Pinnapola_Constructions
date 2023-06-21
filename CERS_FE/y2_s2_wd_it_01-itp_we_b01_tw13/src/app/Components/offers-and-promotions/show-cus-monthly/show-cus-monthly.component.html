@@ -1,0 +1,72 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+  <div class="row1">
+    <!-- <div style="margin-left: 60px"><br /><br /></div> -->
+  </div><br><br>
+  <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%; text-align: center; margin: auto;">
+  <br><br><br><br>
+  <div class="card">
+    <div class="content" role="main">
+     <div class="col-lg-3" *ngFor="let item of MonthlyOfferList">
+      <div class="card1" >
+        <br>
+        <h1>
+          {{item.offerName}}
+         
+        </h1><br><br>
+        
+        <div class="card1Main" >
+          <img class="image" src="../../../../assets/OfferImages/dealMonth.jpg" />
+          <div class="cardInfo">
+            <div class="subInfo">
+            
+              <span> {{item.offerDescription}}</span>
+            </div>
+            <div class="subInfo">
+              <label>Offer ID  :  </label> <span>{{item.offerID}}</span>
+            </div>
+            <div class="subInfo">
+              <label>Offer Period  :  </label> <span>{{item.offerPeriod}}</span>
+            </div>
+
+           
+
+            <div class="subInfo">
+              <label>Valid Item ID  :</label>
+              <span>{{item.offerMachineID}}  {{item.offerVehicleID}}</span>
+            </div>
+
+            <div class="subInfo">
+              <label>Rent with </label>
+              <span id="discount"> {{item.offerDiscount}}%</span>
+              <label>. discount</label>
+            </div>
+
+            <div class="subInfo">
+              <label>Terms and Conditions  :</label>
+              <span>{{item.offerConditions}}</span>
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+     </div>
+    </div>
+  </div>
+</div>
+

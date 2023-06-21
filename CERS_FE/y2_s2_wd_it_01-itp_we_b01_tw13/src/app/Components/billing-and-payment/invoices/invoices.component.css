@@ -1,0 +1,97 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+table {
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+th{
+  font-size: 18px;
+  color: #000;
+}
+
+p{
+  border-bottom-left-radius: 20px;
+  margin-left: 130px;
+  font-size: large;
+  font-weight: bold;
+  color: #EAD215;
+
+}
+
+.top{
+  
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+button:hover{
+  background-color: #EAD215;
+}
+
+.container {
+    width: 1250px;
+    margin:0 auto;
+}
+
+.optionsBar{
+ background-color:#F6F6F6;
+ width: 1250px;
+ margin-left: 134px;
+ margin-top: 10px;
+ height: 65px;
+ align-items: center;
+}
+
+input{
+
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 15px;
+  width: 250px;
+  height: 25px;
+
+}
+.sort-options {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  float: right;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+select{
+  font-size: 14px;
+  border-radius: 15px;
+  margin-left: 5px;
+  height: 30px;
+  width: 130px;
+  
+}
+.btn{
+  margin-bottom: 10px;
+    border-radius: 17px;
+    background-color: #EAD215;
+    font-size: 18px;
+    height: 35px;
+    font-weight: 700;
+    font-family:sans-serif;
+    width: 150px;
+    border: none;  
+}
